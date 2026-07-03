@@ -1,4 +1,4 @@
-# Scraper cache and state
+# Scraper runtime state (machine-specific)
 scraper/state.json
 scraper/cache.json
 scraper/*.log
@@ -17,8 +17,5 @@ desktop.ini
 *.swp
 *.swo
 
-# Generated files that can be regenerated
-js/data.js
-
-# Scraper logs
+# Logs
 *.log
