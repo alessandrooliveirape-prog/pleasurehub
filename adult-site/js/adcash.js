@@ -57,16 +57,16 @@ const ADCASH = {
   /* --- Placeholder visual (enquanto não configura IDs reais) --- */
   _renderPlaceholder(container, type) {
     const labels = {
-      'BANNER_728x90': 'Anúncio 728x90',
-      'BANNER_300x250': 'Anúncio 300x250',
-      'NATIVE': 'Anúncio Nativo',
+      'BANNER_728x90': 'Leaderboard Ad 728x90',
+      'BANNER_300x250': 'Rectangle Ad 300x250',
+      'NATIVE': 'Native Ad',
     };
 
     container.innerHTML = `
       <div class="ad-placeholder-content">
         <div class="ad-icon">📢</div>
-        <p>${labels[type] || 'Espaço Publicitário'}</p>
-        <small>AdCash - Configure seu ID de publisher</small>
+        <p>${labels[type] || 'Advertisement Space'}</p>
+        <small>AdCash - Configure your publisher ID</small>
       </div>
     `;
   },

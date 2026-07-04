@@ -82,9 +82,9 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         // Fallback: copiar link
         navigator.clipboard.writeText(window.location.href).then(() => {
-          shareBtn.innerHTML = '✅ Link copiado!';
+          shareBtn.innerHTML = '✅ Link copied!';
           setTimeout(() => {
-            shareBtn.innerHTML = '🔗 Compartilhar';
+            shareBtn.innerHTML = '🔗 Share';
           }, 2000);
         });
       }
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const loadMoreBtn = document.getElementById('loadMore');
   if (loadMoreBtn) {
     loadMoreBtn.addEventListener('click', function() {
-      this.textContent = 'Carregando...';
+      this.textContent = 'Loading...';
       this.disabled = true;
       
       setTimeout(() => {
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const grid = document.querySelector('.content-grid');
         if (grid) {
           // Adicionar mais cards (exemplo)
-          this.textContent = 'Carregar mais vídeos';
+          this.textContent = 'Load more videos';
           this.disabled = false;
         }
       }, 1000);
@@ -184,6 +184,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  console.log('[PleasureHub] Site carregado com sucesso! 🚀');
-  console.log('[PleasureHub] Configure o ID do AdCash em js/adcash.js');
+  console.log('[PleasureHub] Site loaded successfully! 🚀');
+  console.log('[PleasureHub] Configure the AdCash ID in js/adcash.js');
 });

@@ -87,7 +87,7 @@ const EMBED = {
       container.innerHTML = `
         <div style="text-align:center;padding:40px;color:var(--text-muted);">
           <div style="font-size:3rem;margin-bottom:12px;">⚠️</div>
-          <p>URL de embed inválida ou não reconhecida.</p>
+          <p>Invalid or unrecognized embed URL.</p>
           <p style="font-size:0.8rem;margin-top:8px;">URL: ${url}</p>
         </div>
       `;
@@ -115,7 +115,7 @@ const EMBED = {
           class="embed-iframe"
         ></iframe>
         <span class="embed-badge">🎬 ${platformName}</span>
-        <a href="${originalUrl}" target="_blank" rel="noopener" class="embed-original-link">↗ Original</a>
+        <a href="${originalUrl}" target="_blank" rel="noopener" class="embed-original-link">↗ Source</a>
       </div>
     `;
   },
@@ -129,7 +129,7 @@ const EMBED = {
   /* --- Pegar nome amigável da plataforma --- */
   getPlatformName(url) {
     const info = this.detectPlatform(url);
-    return info ? info.name : 'Desconhecido';
+    return info ? info.name : 'Unknown';
   },
 
   /* --- Obter link para página original --- */

@@ -10,7 +10,7 @@ const COMMENTS = {
   /* --- Inicializar --- */
   init() {
     this._load();
-    console.log('[Comments] Sistema de comentários carregado');
+    console.log('[Comments] Comments system loaded');
   },
 
   /* --- Carregar comentários do localStorage --- */
@@ -28,7 +28,7 @@ const COMMENTS = {
     try {
       localStorage.setItem(this._storageKey, JSON.stringify(this._comments));
     } catch (e) {
-      console.warn('[Comments] Erro ao salvar comentários:', e);
+      console.warn('[Comments] Error saving comments:', e);
     }
   },
 
@@ -46,7 +46,7 @@ const COMMENTS = {
     const comment = {
       id: Date.now().toString(36) + Math.random().toString(36).substr(2, 5),
       videoId: videoId,
-      author: data.author || 'Anônimo',
+      author: data.author || 'Anonymous',
       text: data.text.trim(),
       likes: 0,
       dislikes: 0,
@@ -71,7 +71,7 @@ const COMMENTS = {
 
     const reply = {
       id: Date.now().toString(36) + Math.random().toString(36).substr(2, 5),
-      author: data.author || 'Anônimo',
+      author: data.author || 'Anonymous',
       text: data.text.trim(),
       likes: 0,
       date: new Date().toISOString(),
@@ -118,25 +118,25 @@ const COMMENTS = {
     
     container.innerHTML = `
       <div class="comments-header">
-        <h3 class="comments-title">💬 Comentários <span class="comments-count">(${comments.length})</span></h3>
+        <h3 class="comments-title">💬 Comments <span class="comments-count">(${comments.length})</span></h3>
       </div>
       
       <div class="comment-form">
         <div class="comment-form-row">
-          <input type="text" id="commentAuthor" class="comment-input" placeholder="Seu nome (opcional)" maxlength="30">
+          <input type="text" id="commentAuthor" class="comment-input" placeholder="Your name (optional)" maxlength="30">
         </div>
         <div class="comment-form-row">
-          <textarea id="commentText" class="comment-textarea" placeholder="Deixe seu comentário..." rows="3" maxlength="500"></textarea>
+          <textarea id="commentText" class="comment-textarea" placeholder="Leave a comment..." rows="3" maxlength="500"></textarea>
         </div>
         <div class="comment-form-row" style="display:flex;justify-content:space-between;align-items:center;">
           <span class="comment-char-count" id="commentCharCount">0/500</span>
-          <button id="commentSubmitBtn" class="btn-primary" style="padding:10px 24px;font-size:0.85rem;">Enviar comentário</button>
+          <button id="commentSubmitBtn" class="btn-primary" style="padding:10px 24px;font-size:0.85rem;">Submit comment</button>
         </div>
       </div>
       
       <div class="comments-list">
         ${comments.length === 0 
-          ? '<div class="comments-empty">Nenhum comentário ainda. Seja o primeiro!</div>'
+          ? '<div class="comments-empty">No comments yet. Be the first!</div>'
           : comments.map(c => this._renderCommentHTML(c, videoId)).join('')}
       </div>
     `;
@@ -147,7 +147,7 @@ const COMMENTS = {
   /* --- Renderizar HTML de um comentário --- */
   _renderCommentHTML(comment, videoId) {
     const date = new Date(comment.date);
-    const formattedDate = date.toLocaleDateString('pt-BR', {
+    const formattedDate = date.toLocaleDateString('en-US', {
       day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit'
     });
 
@@ -157,7 +157,7 @@ const COMMENTS = {
             <div class="comment-reply">
               <div class="comment-avatar" style="background:linear-gradient(135deg,#6c5ce7,#a29bfe);">${r.author.charAt(0).toUpperCase()}</div>
               <div class="comment-body">
-                <div class="comment-author">${this._escapeHtml(r.author)} <span class="comment-date">${new Date(r.date).toLocaleDateString('pt-BR', {day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})}</span></div>
+                <div class="comment-author">${this._escapeHtml(r.author)} <span class="comment-date">${new Date(r.date).toLocaleDateString('en-US', {day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})}</span></div>
                 <div class="comment-text">${this._escapeHtml(r.text)}</div>
               </div>
             </div>
@@ -173,13 +173,13 @@ const COMMENTS = {
           <div class="comment-text">${this._escapeHtml(comment.text)}</div>
           <div class="comment-actions">
             <button class="comment-action like-btn" data-video="${videoId}" data-comment="${comment.id}">👍 <span>${comment.likes}</span></button>
-            <button class="comment-action reply-btn" data-comment-id="${comment.id}">💬 Responder</button>
+            <button class="comment-action reply-btn" data-comment-id="${comment.id}">💬 Reply</button>
             <button class="comment-action delete-btn" data-video="${videoId}" data-comment="${comment.id}">🗑️</button>
           </div>
           <div class="reply-form" id="replyForm-${comment.id}" style="display:none;">
-            <input type="text" class="reply-author-input" placeholder="Seu nome" maxlength="30">
-            <textarea class="reply-text-input" placeholder="Escreva sua resposta..." rows="2" maxlength="300"></textarea>
-            <button class="btn-primary reply-submit-btn" style="padding:8px 16px;font-size:0.8rem;" data-video="${videoId}" data-comment="${comment.id}">Responder</button>
+            <input type="text" class="reply-author-input" placeholder="Your name" maxlength="30">
+            <textarea class="reply-text-input" placeholder="Write your reply..." rows="2" maxlength="300"></textarea>
+            <button class="btn-primary reply-submit-btn" style="padding:8px 16px;font-size:0.8rem;" data-video="${videoId}" data-comment="${comment.id}">Reply</button>
           </div>
           ${repliesHTML}
         </div>
@@ -204,7 +204,7 @@ const COMMENTS = {
     // Enviar comentário
     if (submitBtn && textInput) {
       submitBtn.addEventListener('click', () => {
-        const author = authorInput ? authorInput.value.trim() || 'Anônimo' : 'Anônimo';
+        const author = authorInput ? authorInput.value.trim() || 'Anonymous' : 'Anonymous';
         const text = textInput.value.trim();
         if (!text) return;
 
@@ -237,7 +237,7 @@ const COMMENTS = {
     // Delete buttons
     container.querySelectorAll('.delete-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        if (confirm('Excluir este comentário?')) {
+        if (confirm('Delete this comment?')) {
           const video = btn.dataset.video;
           const commentId = btn.dataset.comment;
           if (this.deleteComment(video, commentId)) {
@@ -266,7 +266,7 @@ const COMMENTS = {
         const authorInput = form.querySelector('.reply-author-input');
         const textInput = form.querySelector('.reply-text-input');
         
-        const author = authorInput ? authorInput.value.trim() || 'Anônimo' : 'Anônimo';
+        const author = authorInput ? authorInput.value.trim() || 'Anonymous' : 'Anonymous';
         const text = textInput ? textInput.value.trim() : '';
         if (!text) return;
 
