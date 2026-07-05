@@ -96,6 +96,19 @@ button {
   background: var(--accent-primary);
 }
 
+/* --- Performance: content-visibility for offscreen sections --- */
+.content-section, .hero, .categories-strip, .site-footer, .category-header, .comments-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px;
+}
+
+/* Reduce animation overhead */
+.content-card {
+  animation: none;
+  opacity: 1;
+  contain: layout style;
+}
+
 /* --- Utility Classes --- */
 .container {
   max-width: var(--max-width);
@@ -593,13 +606,26 @@ button {
   overflow: hidden;
 }
 
-.content-card .card-thumb .card-gradient {
+/* Thumbnail image with lazy loading */
+.card-thumb-img {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 50%;
-  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+/* Keep gradient visible behind image as placeholder */
+.content-card .card-thumb .card-gradient {
+  z-index: 2;
+}
+
+/* Badges above gradient */
+.content-card .card-thumb .quality-badge,
+.content-card .card-thumb .duration-badge {
+  z-index: 3;
 }
 
 .content-card .card-thumb .duration-badge {
@@ -611,7 +637,6 @@ button {
   border-radius: 4px;
   font-size: 0.7rem;
   font-weight: 600;
-  z-index: 2;
 }
 
 .content-card .card-thumb .quality-badge {
@@ -624,7 +649,6 @@ button {
   font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
-  z-index: 2;
 }
 
 .content-card .card-thumb .play-overlay {
@@ -1413,27 +1437,7 @@ button {
   to { opacity: 1; }
 }
 
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-}
-
-.content-card {
-  animation: slideUp 0.4s ease forwards;
-}
-
-.content-card:nth-child(2) { animation-delay: 0.05s; }
-.content-card:nth-child(3) { animation-delay: 0.1s; }
-.content-card:nth-child(4) { animation-delay: 0.15s; }
-.content-card:nth-child(5) { animation-delay: 0.2s; }
-.content-card:nth-child(6) { animation-delay: 0.25s; }
-.content-card:nth-child(7) { animation-delay: 0.3s; }
-.content-card:nth-child(8) { animation-delay: 0.35s; }
 
 /* Responsive: Video Layout */
 @media (max-width: 1024px) {

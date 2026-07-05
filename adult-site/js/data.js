@@ -21,7 +21,7 @@ const SITE_DATA = {
     { id: 'orgy', name: 'Orgy', emoji: '🎉', count: 8, color: '#e17055' },
     { id: 'trans', name: 'Trans', emoji: '⚧️', count: 8, color: '#a29bfe' },
     { id: 'interracial', name: 'Interracial', emoji: '🌍', count: 8, color: '#00cec9' },
-    { id: 'cosplay', name: 'Cosplay', emoji: '🎭', count: 0, color: '#fd79a8' }
+    { id: 'cosplay', name: 'Cosplay', emoji: '🎭', count: 8, color: '#fd79a8' }
   ],
 
   videos: [
@@ -42,6 +42,8 @@ const SITE_DATA = {
     dislikes: 205,
     date: "2025-01-22",
     gradient: "linear-gradient(135deg, hsl(137.508, 70%, 30%), hsl(177.508, 60%, 20%))",
+    thumb: "https://picsum.photos/seed/vid1/320/180",    thumb: "https://picsum.photos/seed/vid1/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000001"
   },
   {
@@ -61,6 +63,8 @@ const SITE_DATA = {
     dislikes: 515,
     date: "2025-04-28",
     gradient: "linear-gradient(135deg, hsl(275.016, 70%, 30%), hsl(315.016, 60%, 20%))",
+    thumb: "https://picsum.photos/seed/vid2/320/180",    thumb: "https://picsum.photos/seed/vid2/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000002"
   },
   {
@@ -79,7 +83,8 @@ const SITE_DATA = {
     likes: 14519,
     dislikes: 185,
     date: "2025-02-11",
-    gradient: "linear-gradient(135deg, hsl(52.524, 70%, 30%), hsl(92.524, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(52.524, 70%, 30%), hsl(92.524, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid3/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000003"
   },
   {
@@ -98,7 +103,8 @@ const SITE_DATA = {
     likes: 14685,
     dislikes: 176,
     date: "2025-05-21",
-    gradient: "linear-gradient(135deg, hsl(190.03200000000004, 70%, 30%), hsl(230.03200000000004, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(190.03200000000004, 70%, 30%), hsl(230.03200000000004, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid4/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000004"
   },
   {
@@ -117,7 +123,8 @@ const SITE_DATA = {
     likes: 5055,
     dislikes: 208,
     date: "2025-04-04",
-    gradient: "linear-gradient(135deg, hsl(327.5400000000001, 70%, 30%), hsl(7.540000000000077, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(327.5400000000001, 70%, 30%), hsl(7.540000000000077, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid5/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000005"
   },
   {
@@ -136,7 +143,8 @@ const SITE_DATA = {
     likes: 643,
     dislikes: 292,
     date: "2025-02-12",
-    gradient: "linear-gradient(135deg, hsl(105.048, 70%, 30%), hsl(145.048, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(105.048, 70%, 30%), hsl(145.048, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid6/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000006"
   },
   {
@@ -155,7 +163,8 @@ const SITE_DATA = {
     likes: 19579,
     dislikes: 52,
     date: "2025-03-01",
-    gradient: "linear-gradient(135deg, hsl(242.55600000000004, 70%, 30%), hsl(282.55600000000004, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(242.55600000000004, 70%, 30%), hsl(282.55600000000004, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid7/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000007"
   },
   {
@@ -174,7 +183,8 @@ const SITE_DATA = {
     likes: 15402,
     dislikes: 558,
     date: "2025-04-13",
-    gradient: "linear-gradient(135deg, hsl(20.064000000000078, 70%, 30%), hsl(60.06400000000008, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(20.064000000000078, 70%, 30%), hsl(60.06400000000008, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid8/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000008"
   },
   {
@@ -193,7 +203,8 @@ const SITE_DATA = {
     likes: 9341,
     dislikes: 417,
     date: "2025-05-10",
-    gradient: "linear-gradient(135deg, hsl(157.57200000000012, 70%, 30%), hsl(197.57200000000012, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(157.57200000000012, 70%, 30%), hsl(197.57200000000012, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid9/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000009"
   },
   {
@@ -212,7 +223,8 @@ const SITE_DATA = {
     likes: 1277,
     dislikes: 274,
     date: "2025-04-12",
-    gradient: "linear-gradient(135deg, hsl(295.08000000000015, 70%, 30%), hsl(335.08000000000015, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(295.08000000000015, 70%, 30%), hsl(335.08000000000015, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid10/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000010"
   },
   {
@@ -231,7 +243,8 @@ const SITE_DATA = {
     likes: 1614,
     dislikes: 183,
     date: "2025-02-24",
-    gradient: "linear-gradient(135deg, hsl(72.58800000000019, 70%, 30%), hsl(112.58800000000019, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(72.58800000000019, 70%, 30%), hsl(112.58800000000019, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid11/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000011"
   },
   {
@@ -250,7 +263,8 @@ const SITE_DATA = {
     likes: 18777,
     dislikes: 451,
     date: "2025-01-15",
-    gradient: "linear-gradient(135deg, hsl(210.096, 70%, 30%), hsl(250.096, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(210.096, 70%, 30%), hsl(250.096, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid12/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000012"
   },
   {
@@ -269,7 +283,8 @@ const SITE_DATA = {
     likes: 4110,
     dislikes: 526,
     date: "2025-05-19",
-    gradient: "linear-gradient(135deg, hsl(347.60400000000004, 70%, 30%), hsl(27.604000000000042, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(347.60400000000004, 70%, 30%), hsl(27.604000000000042, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid13/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000013"
   },
   {
@@ -288,7 +303,8 @@ const SITE_DATA = {
     likes: 12330,
     dislikes: 323,
     date: "2025-02-03",
-    gradient: "linear-gradient(135deg, hsl(125.11200000000008, 70%, 30%), hsl(165.11200000000008, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(125.11200000000008, 70%, 30%), hsl(165.11200000000008, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid14/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000014"
   },
   {
@@ -307,7 +323,8 @@ const SITE_DATA = {
     likes: 596,
     dislikes: 276,
     date: "2025-04-15",
-    gradient: "linear-gradient(135deg, hsl(262.62000000000035, 70%, 30%), hsl(302.62000000000035, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(262.62000000000035, 70%, 30%), hsl(302.62000000000035, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid15/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000015"
   },
   {
@@ -326,7 +343,8 @@ const SITE_DATA = {
     likes: 2430,
     dislikes: 583,
     date: "2025-05-20",
-    gradient: "linear-gradient(135deg, hsl(40.128000000000156, 70%, 30%), hsl(80.12800000000016, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(40.128000000000156, 70%, 30%), hsl(80.12800000000016, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid16/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000016"
   },
   {
@@ -345,7 +363,8 @@ const SITE_DATA = {
     likes: 13598,
     dislikes: 364,
     date: "2025-03-27",
-    gradient: "linear-gradient(135deg, hsl(177.63599999999997, 70%, 30%), hsl(217.63599999999997, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(177.63599999999997, 70%, 30%), hsl(217.63599999999997, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid17/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000017"
   },
   {
@@ -364,7 +383,8 @@ const SITE_DATA = {
     likes: 7363,
     dislikes: 503,
     date: "2025-01-17",
-    gradient: "linear-gradient(135deg, hsl(315.14400000000023, 70%, 30%), hsl(355.14400000000023, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(315.14400000000023, 70%, 30%), hsl(355.14400000000023, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid18/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000018"
   },
   {
@@ -383,7 +403,8 @@ const SITE_DATA = {
     likes: 14366,
     dislikes: 435,
     date: "2025-05-20",
-    gradient: "linear-gradient(135deg, hsl(92.65200000000004, 70%, 30%), hsl(132.65200000000004, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(92.65200000000004, 70%, 30%), hsl(132.65200000000004, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid19/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000019"
   },
   {
@@ -402,7 +423,8 @@ const SITE_DATA = {
     likes: 16616,
     dislikes: 123,
     date: "2025-03-02",
-    gradient: "linear-gradient(135deg, hsl(230.1600000000003, 70%, 30%), hsl(270.1600000000003, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(230.1600000000003, 70%, 30%), hsl(270.1600000000003, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid20/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000020"
   },
   {
@@ -421,7 +443,8 @@ const SITE_DATA = {
     likes: 8210,
     dislikes: 300,
     date: "2025-02-15",
-    gradient: "linear-gradient(135deg, hsl(7.66800000000012, 70%, 30%), hsl(47.66800000000012, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(7.66800000000012, 70%, 30%), hsl(47.66800000000012, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid21/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000021"
   },
   {
@@ -440,7 +463,8 @@ const SITE_DATA = {
     likes: 18657,
     dislikes: 363,
     date: "2025-01-13",
-    gradient: "linear-gradient(135deg, hsl(145.17600000000039, 70%, 30%), hsl(185.17600000000039, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(145.17600000000039, 70%, 30%), hsl(185.17600000000039, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid22/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000022"
   },
   {
@@ -459,7 +483,8 @@ const SITE_DATA = {
     likes: 10450,
     dislikes: 144,
     date: "2025-05-25",
-    gradient: "linear-gradient(135deg, hsl(282.6840000000002, 70%, 30%), hsl(322.6840000000002, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(282.6840000000002, 70%, 30%), hsl(322.6840000000002, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid23/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000023"
   },
   {
@@ -478,7 +503,8 @@ const SITE_DATA = {
     likes: 13588,
     dislikes: 215,
     date: "2025-04-01",
-    gradient: "linear-gradient(135deg, hsl(60.19200000000001, 70%, 30%), hsl(100.19200000000001, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(60.19200000000001, 70%, 30%), hsl(100.19200000000001, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid24/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000024"
   },
   {
@@ -497,7 +523,8 @@ const SITE_DATA = {
     likes: 8624,
     dislikes: 71,
     date: "2025-03-16",
-    gradient: "linear-gradient(135deg, hsl(197.70000000000027, 70%, 30%), hsl(237.70000000000027, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(197.70000000000027, 70%, 30%), hsl(237.70000000000027, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid25/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000025"
   },
   {
@@ -516,7 +543,8 @@ const SITE_DATA = {
     likes: 4181,
     dislikes: 138,
     date: "2025-04-20",
-    gradient: "linear-gradient(135deg, hsl(335.2080000000001, 70%, 30%), hsl(15.208000000000084, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(335.2080000000001, 70%, 30%), hsl(15.208000000000084, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid26/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000026"
   },
   {
@@ -535,7 +563,8 @@ const SITE_DATA = {
     likes: 12553,
     dislikes: 357,
     date: "2025-03-21",
-    gradient: "linear-gradient(135deg, hsl(112.71600000000035, 70%, 30%), hsl(152.71600000000035, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(112.71600000000035, 70%, 30%), hsl(152.71600000000035, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid27/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000027"
   },
   {
@@ -554,7 +583,8 @@ const SITE_DATA = {
     likes: 9490,
     dislikes: 37,
     date: "2025-02-24",
-    gradient: "linear-gradient(135deg, hsl(250.22400000000016, 70%, 30%), hsl(290.22400000000016, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(250.22400000000016, 70%, 30%), hsl(290.22400000000016, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid28/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000028"
   },
   {
@@ -573,7 +603,8 @@ const SITE_DATA = {
     likes: 16184,
     dislikes: 14,
     date: "2025-01-19",
-    gradient: "linear-gradient(135deg, hsl(27.732000000000426, 70%, 30%), hsl(67.73200000000043, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(27.732000000000426, 70%, 30%), hsl(67.73200000000043, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid29/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000029"
   },
   {
@@ -592,7 +623,8 @@ const SITE_DATA = {
     likes: 14234,
     dislikes: 5,
     date: "2025-02-20",
-    gradient: "linear-gradient(135deg, hsl(165.2400000000007, 70%, 30%), hsl(205.2400000000007, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(165.2400000000007, 70%, 30%), hsl(205.2400000000007, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid30/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000030"
   },
   {
@@ -611,7 +643,8 @@ const SITE_DATA = {
     likes: 15749,
     dislikes: 325,
     date: "2025-02-18",
-    gradient: "linear-gradient(135deg, hsl(302.7480000000005, 70%, 30%), hsl(342.7480000000005, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(302.7480000000005, 70%, 30%), hsl(342.7480000000005, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid31/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000031"
   },
   {
@@ -630,7 +663,8 @@ const SITE_DATA = {
     likes: 5306,
     dislikes: 374,
     date: "2025-03-28",
-    gradient: "linear-gradient(135deg, hsl(80.25600000000031, 70%, 30%), hsl(120.25600000000031, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(80.25600000000031, 70%, 30%), hsl(120.25600000000031, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid32/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000032"
   },
   {
@@ -649,7 +683,8 @@ const SITE_DATA = {
     likes: 3444,
     dislikes: 150,
     date: "2025-01-09",
-    gradient: "linear-gradient(135deg, hsl(217.76400000000012, 70%, 30%), hsl(257.7640000000001, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(217.76400000000012, 70%, 30%), hsl(257.7640000000001, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid33/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000033"
   },
   {
@@ -668,7 +703,8 @@ const SITE_DATA = {
     likes: 18761,
     dislikes: 582,
     date: "2025-03-05",
-    gradient: "linear-gradient(135deg, hsl(355.27199999999993, 70%, 30%), hsl(35.271999999999935, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(355.27199999999993, 70%, 30%), hsl(35.271999999999935, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid34/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000034"
   },
   {
@@ -687,7 +723,8 @@ const SITE_DATA = {
     likes: 3562,
     dislikes: 260,
     date: "2025-03-17",
-    gradient: "linear-gradient(135deg, hsl(132.78000000000065, 70%, 30%), hsl(172.78000000000065, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(132.78000000000065, 70%, 30%), hsl(172.78000000000065, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid35/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000035"
   },
   {
@@ -706,7 +743,8 @@ const SITE_DATA = {
     likes: 17659,
     dislikes: 143,
     date: "2025-03-23",
-    gradient: "linear-gradient(135deg, hsl(270.28800000000047, 70%, 30%), hsl(310.28800000000047, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(270.28800000000047, 70%, 30%), hsl(310.28800000000047, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid36/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000036"
   },
   {
@@ -725,7 +763,8 @@ const SITE_DATA = {
     likes: 11418,
     dislikes: 340,
     date: "2025-03-11",
-    gradient: "linear-gradient(135deg, hsl(47.79600000000028, 70%, 30%), hsl(87.79600000000028, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(47.79600000000028, 70%, 30%), hsl(87.79600000000028, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid37/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000037"
   },
   {
@@ -744,7 +783,8 @@ const SITE_DATA = {
     likes: 15854,
     dislikes: 165,
     date: "2025-03-27",
-    gradient: "linear-gradient(135deg, hsl(185.3040000000001, 70%, 30%), hsl(225.3040000000001, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(185.3040000000001, 70%, 30%), hsl(225.3040000000001, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid38/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000038"
   },
   {
@@ -763,7 +803,8 @@ const SITE_DATA = {
     likes: 14952,
     dislikes: 131,
     date: "2025-03-09",
-    gradient: "linear-gradient(135deg, hsl(322.8120000000008, 70%, 30%), hsl(2.8120000000008076, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(322.8120000000008, 70%, 30%), hsl(2.8120000000008076, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid39/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000039"
   },
   {
@@ -782,7 +823,8 @@ const SITE_DATA = {
     likes: 18488,
     dislikes: 124,
     date: "2025-05-27",
-    gradient: "linear-gradient(135deg, hsl(100.32000000000062, 70%, 30%), hsl(140.32000000000062, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(100.32000000000062, 70%, 30%), hsl(140.32000000000062, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid40/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000040"
   },
   {
@@ -801,7 +843,8 @@ const SITE_DATA = {
     likes: 5400,
     dislikes: 449,
     date: "2025-01-27",
-    gradient: "linear-gradient(135deg, hsl(237.82800000000043, 70%, 30%), hsl(277.82800000000043, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(237.82800000000043, 70%, 30%), hsl(277.82800000000043, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid41/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000041"
   },
   {
@@ -820,7 +863,8 @@ const SITE_DATA = {
     likes: 16217,
     dislikes: 489,
     date: "2025-04-16",
-    gradient: "linear-gradient(135deg, hsl(15.33600000000024, 70%, 30%), hsl(55.33600000000024, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(15.33600000000024, 70%, 30%), hsl(55.33600000000024, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid42/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000042"
   },
   {
@@ -839,7 +883,8 @@ const SITE_DATA = {
     likes: 20464,
     dislikes: 201,
     date: "2025-03-22",
-    gradient: "linear-gradient(135deg, hsl(152.84400000000005, 70%, 30%), hsl(192.84400000000005, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(152.84400000000005, 70%, 30%), hsl(192.84400000000005, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid43/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000043"
   },
   {
@@ -858,7 +903,8 @@ const SITE_DATA = {
     likes: 13314,
     dislikes: 127,
     date: "2025-04-16",
-    gradient: "linear-gradient(135deg, hsl(290.35200000000077, 70%, 30%), hsl(330.35200000000077, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(290.35200000000077, 70%, 30%), hsl(330.35200000000077, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid44/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000044"
   },
   {
@@ -877,7 +923,8 @@ const SITE_DATA = {
     likes: 13602,
     dislikes: 273,
     date: "2025-05-28",
-    gradient: "linear-gradient(135deg, hsl(67.86000000000058, 70%, 30%), hsl(107.86000000000058, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(67.86000000000058, 70%, 30%), hsl(107.86000000000058, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid45/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000045"
   },
   {
@@ -896,7 +943,8 @@ const SITE_DATA = {
     likes: 15134,
     dislikes: 287,
     date: "2025-03-01",
-    gradient: "linear-gradient(135deg, hsl(205.3680000000004, 70%, 30%), hsl(245.3680000000004, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(205.3680000000004, 70%, 30%), hsl(245.3680000000004, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid46/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000046"
   },
   {
@@ -915,7 +963,8 @@ const SITE_DATA = {
     likes: 6101,
     dislikes: 18,
     date: "2025-02-08",
-    gradient: "linear-gradient(135deg, hsl(342.8760000000002, 70%, 30%), hsl(22.876000000000204, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(342.8760000000002, 70%, 30%), hsl(22.876000000000204, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid47/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000047"
   },
   {
@@ -934,7 +983,8 @@ const SITE_DATA = {
     likes: 10987,
     dislikes: 217,
     date: "2025-02-11",
-    gradient: "linear-gradient(135deg, hsl(120.38400000000001, 70%, 30%), hsl(160.38400000000001, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(120.38400000000001, 70%, 30%), hsl(160.38400000000001, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid48/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000048"
   },
   {
@@ -953,7 +1003,8 @@ const SITE_DATA = {
     likes: 6333,
     dislikes: 437,
     date: "2025-02-10",
-    gradient: "linear-gradient(135deg, hsl(257.89200000000073, 70%, 30%), hsl(297.89200000000073, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(257.89200000000073, 70%, 30%), hsl(297.89200000000073, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid49/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000049"
   },
   {
@@ -972,7 +1023,8 @@ const SITE_DATA = {
     likes: 1021,
     dislikes: 299,
     date: "2025-05-19",
-    gradient: "linear-gradient(135deg, hsl(35.400000000000546, 70%, 30%), hsl(75.40000000000055, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(35.400000000000546, 70%, 30%), hsl(75.40000000000055, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid50/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000050"
   },
   {
@@ -991,7 +1043,8 @@ const SITE_DATA = {
     likes: 13199,
     dislikes: 245,
     date: "2025-01-22",
-    gradient: "linear-gradient(135deg, hsl(172.90800000000036, 70%, 30%), hsl(212.90800000000036, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(172.90800000000036, 70%, 30%), hsl(212.90800000000036, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid51/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000051"
   },
   {
@@ -1010,7 +1063,8 @@ const SITE_DATA = {
     likes: 12488,
     dislikes: 66,
     date: "2025-02-16",
-    gradient: "linear-gradient(135deg, hsl(310.41600000000017, 70%, 30%), hsl(350.41600000000017, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(310.41600000000017, 70%, 30%), hsl(350.41600000000017, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid52/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000052"
   },
   {
@@ -1029,7 +1083,8 @@ const SITE_DATA = {
     likes: 11576,
     dislikes: 539,
     date: "2025-04-13",
-    gradient: "linear-gradient(135deg, hsl(87.92400000000089, 70%, 30%), hsl(127.92400000000089, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(87.92400000000089, 70%, 30%), hsl(127.92400000000089, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid53/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000053"
   },
   {
@@ -1048,7 +1103,8 @@ const SITE_DATA = {
     likes: 16439,
     dislikes: 574,
     date: "2025-03-04",
-    gradient: "linear-gradient(135deg, hsl(225.4320000000007, 70%, 30%), hsl(265.4320000000007, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(225.4320000000007, 70%, 30%), hsl(265.4320000000007, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid54/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000054"
   },
   {
@@ -1067,7 +1123,8 @@ const SITE_DATA = {
     likes: 18151,
     dislikes: 431,
     date: "2025-03-16",
-    gradient: "linear-gradient(135deg, hsl(2.9400000000005093, 70%, 30%), hsl(42.94000000000051, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(2.9400000000005093, 70%, 30%), hsl(42.94000000000051, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid55/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000055"
   },
   {
@@ -1086,7 +1143,8 @@ const SITE_DATA = {
     likes: 18789,
     dislikes: 417,
     date: "2025-04-06",
-    gradient: "linear-gradient(135deg, hsl(140.44800000000032, 70%, 30%), hsl(180.44800000000032, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(140.44800000000032, 70%, 30%), hsl(180.44800000000032, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid56/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000056"
   },
   {
@@ -1105,7 +1163,8 @@ const SITE_DATA = {
     likes: 9257,
     dislikes: 114,
     date: "2025-03-08",
-    gradient: "linear-gradient(135deg, hsl(277.95600000000013, 70%, 30%), hsl(317.95600000000013, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(277.95600000000013, 70%, 30%), hsl(317.95600000000013, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid57/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000057"
   },
   {
@@ -1124,7 +1183,8 @@ const SITE_DATA = {
     likes: 19959,
     dislikes: 366,
     date: "2025-05-25",
-    gradient: "linear-gradient(135deg, hsl(55.46400000000085, 70%, 30%), hsl(95.46400000000085, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(55.46400000000085, 70%, 30%), hsl(95.46400000000085, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid58/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000058"
   },
   {
@@ -1143,7 +1203,8 @@ const SITE_DATA = {
     likes: 9209,
     dislikes: 132,
     date: "2025-02-10",
-    gradient: "linear-gradient(135deg, hsl(192.97200000000066, 70%, 30%), hsl(232.97200000000066, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(192.97200000000066, 70%, 30%), hsl(232.97200000000066, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid59/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000059"
   },
   {
@@ -1162,7 +1223,8 @@ const SITE_DATA = {
     likes: 952,
     dislikes: 335,
     date: "2025-04-27",
-    gradient: "linear-gradient(135deg, hsl(330.4800000000014, 70%, 30%), hsl(10.480000000001382, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(330.4800000000014, 70%, 30%), hsl(10.480000000001382, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid60/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000060"
   },
   {
@@ -1181,7 +1243,8 @@ const SITE_DATA = {
     likes: 1623,
     dislikes: 223,
     date: "2025-05-13",
-    gradient: "linear-gradient(135deg, hsl(107.9880000000012, 70%, 30%), hsl(147.9880000000012, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(107.9880000000012, 70%, 30%), hsl(147.9880000000012, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid61/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000061"
   },
   {
@@ -1200,7 +1263,8 @@ const SITE_DATA = {
     likes: 16434,
     dislikes: 329,
     date: "2025-04-14",
-    gradient: "linear-gradient(135deg, hsl(245.496000000001, 70%, 30%), hsl(285.496000000001, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(245.496000000001, 70%, 30%), hsl(285.496000000001, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid62/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000062"
   },
   {
@@ -1219,7 +1283,8 @@ const SITE_DATA = {
     likes: 6507,
     dislikes: 152,
     date: "2025-03-10",
-    gradient: "linear-gradient(135deg, hsl(23.004000000000815, 70%, 30%), hsl(63.004000000000815, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(23.004000000000815, 70%, 30%), hsl(63.004000000000815, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid63/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000063"
   },
   {
@@ -1238,7 +1303,8 @@ const SITE_DATA = {
     likes: 2335,
     dislikes: 570,
     date: "2025-03-18",
-    gradient: "linear-gradient(135deg, hsl(160.51200000000063, 70%, 30%), hsl(200.51200000000063, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(160.51200000000063, 70%, 30%), hsl(200.51200000000063, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid64/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000064"
   },
   {
@@ -1257,7 +1323,8 @@ const SITE_DATA = {
     likes: 18290,
     dislikes: 75,
     date: "2025-03-16",
-    gradient: "linear-gradient(135deg, hsl(298.02000000000044, 70%, 30%), hsl(338.02000000000044, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(298.02000000000044, 70%, 30%), hsl(338.02000000000044, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid65/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000065"
   },
   {
@@ -1276,7 +1343,8 @@ const SITE_DATA = {
     likes: 20072,
     dislikes: 588,
     date: "2025-02-25",
-    gradient: "linear-gradient(135deg, hsl(75.52800000000025, 70%, 30%), hsl(115.52800000000025, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(75.52800000000025, 70%, 30%), hsl(115.52800000000025, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid66/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000066"
   },
   {
@@ -1295,7 +1363,8 @@ const SITE_DATA = {
     likes: 4656,
     dislikes: 52,
     date: "2025-05-01",
-    gradient: "linear-gradient(135deg, hsl(213.03600000000006, 70%, 30%), hsl(253.03600000000006, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(213.03600000000006, 70%, 30%), hsl(253.03600000000006, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid67/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000067"
   },
   {
@@ -1314,7 +1383,8 @@ const SITE_DATA = {
     likes: 12245,
     dislikes: 243,
     date: "2025-05-24",
-    gradient: "linear-gradient(135deg, hsl(350.54399999999987, 70%, 30%), hsl(30.54399999999987, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(350.54399999999987, 70%, 30%), hsl(30.54399999999987, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid68/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000068"
   },
   {
@@ -1333,7 +1403,8 @@ const SITE_DATA = {
     likes: 8558,
     dislikes: 229,
     date: "2025-04-26",
-    gradient: "linear-gradient(135deg, hsl(128.0520000000015, 70%, 30%), hsl(168.0520000000015, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(128.0520000000015, 70%, 30%), hsl(168.0520000000015, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid69/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000069"
   },
   {
@@ -1352,7 +1423,8 @@ const SITE_DATA = {
     likes: 18255,
     dislikes: 45,
     date: "2025-04-23",
-    gradient: "linear-gradient(135deg, hsl(265.5600000000013, 70%, 30%), hsl(305.5600000000013, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(265.5600000000013, 70%, 30%), hsl(305.5600000000013, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid70/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000070"
   },
   {
@@ -1371,7 +1443,8 @@ const SITE_DATA = {
     likes: 2496,
     dislikes: 441,
     date: "2025-03-15",
-    gradient: "linear-gradient(135deg, hsl(43.06800000000112, 70%, 30%), hsl(83.06800000000112, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(43.06800000000112, 70%, 30%), hsl(83.06800000000112, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid71/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000071"
   },
   {
@@ -1390,7 +1463,8 @@ const SITE_DATA = {
     likes: 19098,
     dislikes: 340,
     date: "2025-02-14",
-    gradient: "linear-gradient(135deg, hsl(180.57600000000093, 70%, 30%), hsl(220.57600000000093, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(180.57600000000093, 70%, 30%), hsl(220.57600000000093, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid72/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000072"
   },
   {
@@ -1409,7 +1483,8 @@ const SITE_DATA = {
     likes: 17666,
     dislikes: 396,
     date: "2025-04-27",
-    gradient: "linear-gradient(135deg, hsl(318.08400000000074, 70%, 30%), hsl(358.08400000000074, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(318.08400000000074, 70%, 30%), hsl(358.08400000000074, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid73/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000073"
   },
   {
@@ -1428,7 +1503,8 @@ const SITE_DATA = {
     likes: 779,
     dislikes: 496,
     date: "2025-03-01",
-    gradient: "linear-gradient(135deg, hsl(95.59200000000055, 70%, 30%), hsl(135.59200000000055, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(95.59200000000055, 70%, 30%), hsl(135.59200000000055, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid74/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000074"
   },
   {
@@ -1447,7 +1523,8 @@ const SITE_DATA = {
     likes: 1185,
     dislikes: 244,
     date: "2025-05-06",
-    gradient: "linear-gradient(135deg, hsl(233.10000000000036, 70%, 30%), hsl(273.10000000000036, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(233.10000000000036, 70%, 30%), hsl(273.10000000000036, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid75/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000075"
   },
   {
@@ -1466,7 +1543,8 @@ const SITE_DATA = {
     likes: 13048,
     dislikes: 217,
     date: "2025-02-20",
-    gradient: "linear-gradient(135deg, hsl(10.608000000000175, 70%, 30%), hsl(50.608000000000175, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(10.608000000000175, 70%, 30%), hsl(50.608000000000175, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid76/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000076"
   },
   {
@@ -1485,7 +1563,8 @@ const SITE_DATA = {
     likes: 13344,
     dislikes: 79,
     date: "2025-03-08",
-    gradient: "linear-gradient(135deg, hsl(148.11599999999999, 70%, 30%), hsl(188.11599999999999, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(148.11599999999999, 70%, 30%), hsl(188.11599999999999, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid77/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000077"
   },
   {
@@ -1504,7 +1583,8 @@ const SITE_DATA = {
     likes: 7254,
     dislikes: 186,
     date: "2025-04-26",
-    gradient: "linear-gradient(135deg, hsl(285.6240000000016, 70%, 30%), hsl(325.6240000000016, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(285.6240000000016, 70%, 30%), hsl(325.6240000000016, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid78/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000078"
   },
   {
@@ -1523,7 +1603,8 @@ const SITE_DATA = {
     likes: 8862,
     dislikes: 151,
     date: "2025-03-12",
-    gradient: "linear-gradient(135deg, hsl(63.132000000001426, 70%, 30%), hsl(103.13200000000143, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(63.132000000001426, 70%, 30%), hsl(103.13200000000143, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid79/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000079"
   },
   {
@@ -1542,7 +1623,8 @@ const SITE_DATA = {
     likes: 14585,
     dislikes: 332,
     date: "2025-04-04",
-    gradient: "linear-gradient(135deg, hsl(200.64000000000124, 70%, 30%), hsl(240.64000000000124, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(200.64000000000124, 70%, 30%), hsl(240.64000000000124, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid80/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000080"
   },
   {
@@ -1561,7 +1643,8 @@ const SITE_DATA = {
     likes: 6883,
     dislikes: 482,
     date: "2025-01-21",
-    gradient: "linear-gradient(135deg, hsl(338.14800000000105, 70%, 30%), hsl(18.148000000001048, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(338.14800000000105, 70%, 30%), hsl(18.148000000001048, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid81/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000081"
   },
   {
@@ -1580,7 +1663,8 @@ const SITE_DATA = {
     likes: 11724,
     dislikes: 45,
     date: "2025-05-28",
-    gradient: "linear-gradient(135deg, hsl(115.65600000000086, 70%, 30%), hsl(155.65600000000086, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(115.65600000000086, 70%, 30%), hsl(155.65600000000086, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid82/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000082"
   },
   {
@@ -1599,7 +1683,8 @@ const SITE_DATA = {
     likes: 11682,
     dislikes: 176,
     date: "2025-04-21",
-    gradient: "linear-gradient(135deg, hsl(253.16400000000067, 70%, 30%), hsl(293.16400000000067, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(253.16400000000067, 70%, 30%), hsl(293.16400000000067, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid83/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000083"
   },
   {
@@ -1618,7 +1703,8 @@ const SITE_DATA = {
     likes: 10242,
     dislikes: 17,
     date: "2025-04-03",
-    gradient: "linear-gradient(135deg, hsl(30.67200000000048, 70%, 30%), hsl(70.67200000000048, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(30.67200000000048, 70%, 30%), hsl(70.67200000000048, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid84/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000084"
   },
   {
@@ -1637,7 +1723,8 @@ const SITE_DATA = {
     likes: 3419,
     dislikes: 454,
     date: "2025-03-02",
-    gradient: "linear-gradient(135deg, hsl(168.1800000000003, 70%, 30%), hsl(208.1800000000003, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(168.1800000000003, 70%, 30%), hsl(208.1800000000003, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid85/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000085"
   },
   {
@@ -1656,7 +1743,8 @@ const SITE_DATA = {
     likes: 9095,
     dislikes: 423,
     date: "2025-05-14",
-    gradient: "linear-gradient(135deg, hsl(305.6880000000001, 70%, 30%), hsl(345.6880000000001, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(305.6880000000001, 70%, 30%), hsl(345.6880000000001, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid86/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000086"
   },
   {
@@ -1675,7 +1763,8 @@ const SITE_DATA = {
     likes: 15473,
     dislikes: 133,
     date: "2025-05-14",
-    gradient: "linear-gradient(135deg, hsl(83.19600000000173, 70%, 30%), hsl(123.19600000000173, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(83.19600000000173, 70%, 30%), hsl(123.19600000000173, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid87/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000087"
   },
   {
@@ -1694,7 +1783,8 @@ const SITE_DATA = {
     likes: 4848,
     dislikes: 419,
     date: "2025-03-25",
-    gradient: "linear-gradient(135deg, hsl(220.70400000000154, 70%, 30%), hsl(260.70400000000154, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(220.70400000000154, 70%, 30%), hsl(260.70400000000154, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid88/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000088"
   },
   {
@@ -1713,7 +1803,8 @@ const SITE_DATA = {
     likes: 1012,
     dislikes: 297,
     date: "2025-01-16",
-    gradient: "linear-gradient(135deg, hsl(358.21200000000135, 70%, 30%), hsl(38.21200000000135, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(358.21200000000135, 70%, 30%), hsl(38.21200000000135, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid89/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000089"
   },
   {
@@ -1732,7 +1823,8 @@ const SITE_DATA = {
     likes: 19984,
     dislikes: 31,
     date: "2025-05-22",
-    gradient: "linear-gradient(135deg, hsl(135.72000000000116, 70%, 30%), hsl(175.72000000000116, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(135.72000000000116, 70%, 30%), hsl(175.72000000000116, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid90/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000090"
   },
   {
@@ -1751,7 +1843,8 @@ const SITE_DATA = {
     likes: 15258,
     dislikes: 194,
     date: "2025-03-05",
-    gradient: "linear-gradient(135deg, hsl(273.228000000001, 70%, 30%), hsl(313.228000000001, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(273.228000000001, 70%, 30%), hsl(313.228000000001, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid91/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000091"
   },
   {
@@ -1770,7 +1863,8 @@ const SITE_DATA = {
     likes: 13041,
     dislikes: 509,
     date: "2025-01-19",
-    gradient: "linear-gradient(135deg, hsl(50.736000000000786, 70%, 30%), hsl(90.73600000000079, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(50.736000000000786, 70%, 30%), hsl(90.73600000000079, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid92/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000092"
   },
   {
@@ -1789,7 +1883,8 @@ const SITE_DATA = {
     likes: 1588,
     dislikes: 332,
     date: "2025-05-22",
-    gradient: "linear-gradient(135deg, hsl(188.2440000000006, 70%, 30%), hsl(228.2440000000006, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(188.2440000000006, 70%, 30%), hsl(228.2440000000006, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid93/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000093"
   },
   {
@@ -1808,7 +1903,8 @@ const SITE_DATA = {
     likes: 8432,
     dislikes: 154,
     date: "2025-02-17",
-    gradient: "linear-gradient(135deg, hsl(325.7520000000004, 70%, 30%), hsl(5.7520000000004075, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(325.7520000000004, 70%, 30%), hsl(5.7520000000004075, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid94/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000094"
   },
   {
@@ -1827,7 +1923,8 @@ const SITE_DATA = {
     likes: 16303,
     dislikes: 97,
     date: "2025-03-14",
-    gradient: "linear-gradient(135deg, hsl(103.26000000000022, 70%, 30%), hsl(143.26000000000022, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(103.26000000000022, 70%, 30%), hsl(143.26000000000022, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid95/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000095"
   },
   {
@@ -1846,7 +1943,8 @@ const SITE_DATA = {
     likes: 13563,
     dislikes: 427,
     date: "2025-01-02",
-    gradient: "linear-gradient(135deg, hsl(240.76800000000003, 70%, 30%), hsl(280.76800000000003, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(240.76800000000003, 70%, 30%), hsl(280.76800000000003, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid96/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000096"
   },
   {
@@ -1865,7 +1963,8 @@ const SITE_DATA = {
     likes: 5889,
     dislikes: 122,
     date: "2025-03-20",
-    gradient: "linear-gradient(135deg, hsl(18.27600000000166, 70%, 30%), hsl(58.27600000000166, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(18.27600000000166, 70%, 30%), hsl(58.27600000000166, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid97/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000097"
   },
   {
@@ -1884,7 +1983,8 @@ const SITE_DATA = {
     likes: 15097,
     dislikes: 16,
     date: "2025-04-21",
-    gradient: "linear-gradient(135deg, hsl(155.78400000000147, 70%, 30%), hsl(195.78400000000147, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(155.78400000000147, 70%, 30%), hsl(195.78400000000147, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid98/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000098"
   },
   {
@@ -1903,7 +2003,8 @@ const SITE_DATA = {
     likes: 5516,
     dislikes: 302,
     date: "2025-03-04",
-    gradient: "linear-gradient(135deg, hsl(293.2920000000013, 70%, 30%), hsl(333.2920000000013, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(293.2920000000013, 70%, 30%), hsl(333.2920000000013, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid99/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000099"
   },
   {
@@ -1922,7 +2023,8 @@ const SITE_DATA = {
     likes: 20108,
     dislikes: 127,
     date: "2025-03-28",
-    gradient: "linear-gradient(135deg, hsl(70.80000000000109, 70%, 30%), hsl(110.80000000000109, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(70.80000000000109, 70%, 30%), hsl(110.80000000000109, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid100/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000100"
   },
   {
@@ -1941,7 +2043,8 @@ const SITE_DATA = {
     likes: 19956,
     dislikes: 254,
     date: "2025-04-25",
-    gradient: "linear-gradient(135deg, hsl(208.3080000000009, 70%, 30%), hsl(248.3080000000009, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(208.3080000000009, 70%, 30%), hsl(248.3080000000009, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid101/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000101"
   },
   {
@@ -1960,7 +2063,8 @@ const SITE_DATA = {
     likes: 17014,
     dislikes: 384,
     date: "2025-05-08",
-    gradient: "linear-gradient(135deg, hsl(345.8160000000007, 70%, 30%), hsl(25.816000000000713, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(345.8160000000007, 70%, 30%), hsl(25.816000000000713, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid102/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000102"
   },
   {
@@ -1979,7 +2083,8 @@ const SITE_DATA = {
     likes: 15056,
     dislikes: 252,
     date: "2025-01-05",
-    gradient: "linear-gradient(135deg, hsl(123.32400000000052, 70%, 30%), hsl(163.32400000000052, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(123.32400000000052, 70%, 30%), hsl(163.32400000000052, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid103/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000103"
   },
   {
@@ -1998,7 +2103,8 @@ const SITE_DATA = {
     likes: 4148,
     dislikes: 341,
     date: "2025-05-20",
-    gradient: "linear-gradient(135deg, hsl(260.83200000000033, 70%, 30%), hsl(300.83200000000033, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(260.83200000000033, 70%, 30%), hsl(300.83200000000033, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid104/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000104"
   },
   {
@@ -2017,7 +2123,8 @@ const SITE_DATA = {
     likes: 14606,
     dislikes: 260,
     date: "2025-05-02",
-    gradient: "linear-gradient(135deg, hsl(38.340000000000146, 70%, 30%), hsl(78.34000000000015, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(38.340000000000146, 70%, 30%), hsl(78.34000000000015, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid105/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000105"
   },
   {
@@ -2036,7 +2143,8 @@ const SITE_DATA = {
     likes: 18134,
     dislikes: 409,
     date: "2025-04-25",
-    gradient: "linear-gradient(135deg, hsl(175.84800000000178, 70%, 30%), hsl(215.84800000000178, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(175.84800000000178, 70%, 30%), hsl(215.84800000000178, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid106/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000106"
   },
   {
@@ -2055,7 +2163,8 @@ const SITE_DATA = {
     likes: 10482,
     dislikes: 126,
     date: "2025-01-05",
-    gradient: "linear-gradient(135deg, hsl(313.3560000000016, 70%, 30%), hsl(353.3560000000016, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(313.3560000000016, 70%, 30%), hsl(353.3560000000016, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid107/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000107"
   },
   {
@@ -2074,7 +2183,8 @@ const SITE_DATA = {
     likes: 18227,
     dislikes: 10,
     date: "2025-04-10",
-    gradient: "linear-gradient(135deg, hsl(90.8640000000014, 70%, 30%), hsl(130.8640000000014, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(90.8640000000014, 70%, 30%), hsl(130.8640000000014, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid108/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000108"
   },
   {
@@ -2093,7 +2203,8 @@ const SITE_DATA = {
     likes: 15447,
     dislikes: 15,
     date: "2025-02-04",
-    gradient: "linear-gradient(135deg, hsl(228.3720000000012, 70%, 30%), hsl(268.3720000000012, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(228.3720000000012, 70%, 30%), hsl(268.3720000000012, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid109/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000109"
   },
   {
@@ -2112,7 +2223,8 @@ const SITE_DATA = {
     likes: 9383,
     dislikes: 136,
     date: "2025-04-18",
-    gradient: "linear-gradient(135deg, hsl(5.880000000001019, 70%, 30%), hsl(45.88000000000102, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(5.880000000001019, 70%, 30%), hsl(45.88000000000102, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid110/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000110"
   },
   {
@@ -2131,7 +2243,8 @@ const SITE_DATA = {
     likes: 5502,
     dislikes: 28,
     date: "2025-02-05",
-    gradient: "linear-gradient(135deg, hsl(143.38800000000083, 70%, 30%), hsl(183.38800000000083, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(143.38800000000083, 70%, 30%), hsl(183.38800000000083, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid111/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000111"
   },
   {
@@ -2150,7 +2263,8 @@ const SITE_DATA = {
     likes: 12282,
     dislikes: 510,
     date: "2025-03-17",
-    gradient: "linear-gradient(135deg, hsl(280.89600000000064, 70%, 30%), hsl(320.89600000000064, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(280.89600000000064, 70%, 30%), hsl(320.89600000000064, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid112/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000112"
   },
   {
@@ -2169,7 +2283,8 @@ const SITE_DATA = {
     likes: 1005,
     dislikes: 260,
     date: "2025-03-23",
-    gradient: "linear-gradient(135deg, hsl(58.40400000000045, 70%, 30%), hsl(98.40400000000045, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(58.40400000000045, 70%, 30%), hsl(98.40400000000045, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid113/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000113"
   },
   {
@@ -2188,7 +2303,8 @@ const SITE_DATA = {
     likes: 9020,
     dislikes: 531,
     date: "2025-05-28",
-    gradient: "linear-gradient(135deg, hsl(195.91200000000026, 70%, 30%), hsl(235.91200000000026, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(195.91200000000026, 70%, 30%), hsl(235.91200000000026, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid114/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000114"
   },
   {
@@ -2207,7 +2323,8 @@ const SITE_DATA = {
     likes: 17247,
     dislikes: 360,
     date: "2025-03-18",
-    gradient: "linear-gradient(135deg, hsl(333.4200000000019, 70%, 30%), hsl(13.420000000001892, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(333.4200000000019, 70%, 30%), hsl(13.420000000001892, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid115/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000115"
   },
   {
@@ -2226,7 +2343,8 @@ const SITE_DATA = {
     likes: 2575,
     dislikes: 321,
     date: "2025-03-07",
-    gradient: "linear-gradient(135deg, hsl(110.9280000000017, 70%, 30%), hsl(150.9280000000017, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(110.9280000000017, 70%, 30%), hsl(150.9280000000017, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid116/320/180",
+
     embedUrl: "https://www.pornhub.com/embed/ph000116"
   },
   {
@@ -2245,7 +2363,8 @@ const SITE_DATA = {
     likes: 18804,
     dislikes: 274,
     date: "2025-03-19",
-    gradient: "linear-gradient(135deg, hsl(248.4360000000015, 70%, 30%), hsl(288.4360000000015, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(248.4360000000015, 70%, 30%), hsl(288.4360000000015, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid117/320/180",
+
     embedUrl: "https://www.xnxx.com/embedframe/xn000117"
   },
   {
@@ -2264,7 +2383,8 @@ const SITE_DATA = {
     likes: 18220,
     dislikes: 449,
     date: "2025-04-13",
-    gradient: "linear-gradient(135deg, hsl(25.944000000001324, 70%, 30%), hsl(65.94400000000132, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(25.944000000001324, 70%, 30%), hsl(65.94400000000132, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid118/320/180",
+
     embedUrl: "https://xhamster.com/embed/xh_video_000118"
   },
   {
@@ -2283,7 +2403,8 @@ const SITE_DATA = {
     likes: 4192,
     dislikes: 121,
     date: "2025-02-26",
-    gradient: "linear-gradient(135deg, hsl(163.45200000000114, 70%, 30%), hsl(203.45200000000114, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(163.45200000000114, 70%, 30%), hsl(203.45200000000114, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid119/320/180",
+
     embedUrl: "https://www.redtube.com/embed/rt000119"
   },
   {
@@ -2302,8 +2423,129 @@ const SITE_DATA = {
     likes: 17271,
     dislikes: 495,
     date: "2025-05-13",
-    gradient: "linear-gradient(135deg, hsl(300.96000000000276, 70%, 30%), hsl(340.96000000000276, 60%, 20%))",
+    gradient: "linear-gradient(135deg, hsl(300.96000000000276, 70%, 30%), hsl(340.96000000000276, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid120/320/180",
+
     embedUrl: "https://www.xvideos.com/embedframe/xv000120"
+  },
+  {
+    id: 121,
+    title: "Hot cosplay - Harley Quinn full sex tape",
+    category: "cosplay",
+    duration: "32:15",
+    views: "654K",
+    quality: "4K",
+    tags: ["cosplay","costume","anime","game"],
+    likes: 15432,
+    dislikes: 123,
+    date: "2025-06-01",
+    gradient: "linear-gradient(135deg, hsl(280, 70%, 30%), hsl(320, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid121/320/180",
+
+    embedUrl: "https://www.pornhub.com/embed/ph000121"
+  },
+  {
+    id: 122,
+    title: "Catwoman cosplay - full night of passion",
+    category: "cosplay",
+    duration: "45:10",
+    views: "876K",
+    quality: "Full HD",
+    tags: ["cosplay","costume","leather","superhero"],
+    likes: 18765,
+    dislikes: 98,
+    date: "2025-06-03",
+    gradient: "linear-gradient(135deg, hsl(210, 70%, 30%), hsl(250, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid122/320/180",
+
+    embedUrl: "https://www.xnxx.com/embedframe/xn000122"
+  },
+  {
+    id: 123,
+    title: "Japanese schoolgirl cosplay - naughty teacher roleplay",
+    category: "cosplay",
+    duration: "28:30",
+    views: "543K",
+    quality: "HD",
+    tags: ["cosplay","costume","schoolgirl","roleplay"],
+    likes: 12345,
+    dislikes: 67,
+    date: "2025-06-05",
+    gradient: "linear-gradient(135deg, hsl(340, 70%, 30%), hsl(20, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid123/320/180",
+
+    embedUrl: "https://xhamster.com/embed/xh_video_000123"
+  },
+  {
+    id: 124,
+    title: "Maid cosplay - full service from hot babe",
+    category: "cosplay",
+    duration: "35:20",
+    views: "789K",
+    quality: "4K",
+    tags: ["cosplay","costume","maid","roleplay"],
+    likes: 11234,
+    dislikes: 234,
+    date: "2025-06-07",
+    gradient: "linear-gradient(135deg, hsl(150, 70%, 30%), hsl(190, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid124/320/180",
+
+    embedUrl: "https://www.redtube.com/embed/rt000124"
+  },
+  {
+    id: 125,
+    title: "Nurse cosplay - hot patient examination",
+    category: "cosplay",
+    duration: "22:15",
+    views: "432K",
+    quality: "Full HD",
+    tags: ["cosplay","costume","nurse","roleplay"],
+    likes: 9876,
+    dislikes: 156,
+    date: "2025-06-09",
+    gradient: "linear-gradient(135deg, hsl(30, 70%, 30%), hsl(70, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid125/320/180",
+
+    embedUrl: "https://www.xvideos.com/embedframe/xv000125"
+  },
+  {
+    id: 126,
+    title: "Wonder Woman cosplay - superhero sex tape",
+    category: "cosplay",
+    duration: "18:45",
+    views: "1.1M",
+    quality: "4K",
+    tags: ["cosplay","costume","superhero","amazon"],
+    likes: 20123,
+    dislikes: 45,
+    date: "2025-06-11",
+    gradient: "linear-gradient(135deg, hsl(220, 70%, 30%), hsl(260, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid126/320/180",
+
+    embedUrl: "https://www.pornhub.com/embed/ph000126"
+  },
+  {
+    id: 127,
+    title: "Elf cosplay - fantasy sex in the forest",
+    category: "cosplay",
+    duration: "40:00",
+    views: "567K",
+    quality: "HD",
+    tags: ["cosplay","costume","fantasy","elf"],
+    likes: 14567,
+    dislikes: 89,
+    date: "2025-06-13",
+    gradient: "linear-gradient(135deg, hsl(120, 70%, 30%), hsl(160, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid127/320/180",
+
+    embedUrl: "https://www.xnxx.com/embedframe/xn000127"
+  },
+  {
+    id: 128,
+    title: "Bunny girl cosplay - wild playboy mansion style",
+    category: "cosplay",
+    duration: "15:30",
+    views: "987K",
+    quality: "Full HD",
+    tags: ["cosplay","costume","bunny","playboy"],
+    likes: 16789,
+    dislikes: 78,
+    date: "2025-06-15",
+    gradient: "linear-gradient(135deg, hsl(0, 70%, 30%), hsl(40, 60%, 20%))",    thumb: "https://picsum.photos/seed/vid128/320/180",
+
+    embedUrl: "https://xhamster.com/embed/xh_video_000128"
   }
 ],
 

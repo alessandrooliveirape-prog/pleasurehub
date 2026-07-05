@@ -21,6 +21,7 @@
   
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://acscdn.com">
   
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='url(%23g)'/><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop stop-color='%23ff2d5c'/><stop offset='1' stop-color='%23b829e0'/></linearGradient></defs><text x='16' y='22' font-size='18' fill='white' text-anchor='middle'>P</text></svg>">
@@ -31,7 +32,7 @@
   <link rel="alternate" hreflang="en" href="https://pleasurehub.com/" />
   <link rel="alternate" hreflang="x-default" href="https://pleasurehub.com/" />
 
-  <!-- AdCash Ads -->
+    <!-- AdCash Ads -->
   <script type="text/javascript" src="https://acscdn.com/script/aclib.js"></script>
   <script type="text/javascript">
     aclib.runAutoTag({
@@ -320,10 +321,10 @@
   </footer>
 
   <!-- ==================== SCRIPTS ==================== -->
-  <script src="js/data.js"></script>
-  <script src="js/adcash.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/analytics.js"></script>
+  <script src="js/data.js" defer></script>
+  <script src="js/adcash.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/analytics.js" defer></script>
   <script>
     // === Render Home Page ===
     document.addEventListener('DOMContentLoaded', () => {
@@ -340,6 +341,7 @@
           item.className = 'hero-side-item';
           item.innerHTML = `
             <div class="side-thumb" style="background: ${v.gradient};">
+            <img src="${v.thumb}" alt="${v.title}" class="card-thumb-img" loading="lazy" onerror="this.style.display=\'none\'">
               <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:2rem;opacity:0.5;">▶</div>
               <span class="duration-badge">${v.duration}</span>
             </div>
@@ -378,6 +380,7 @@
           card.className = 'content-card';
           card.innerHTML = `
             <div class="card-thumb" style="background: ${v.gradient};">
+            <img src="${v.thumb}" alt="${v.title}" class="card-thumb-img" loading="lazy" onerror="this.style.display=\'none\'">
               <div class="card-gradient"></div>
               <span class="quality-badge">${v.quality}</span>
               <span class="duration-badge">${v.duration}</span>

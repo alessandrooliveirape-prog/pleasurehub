@@ -2,6 +2,15 @@
    PLEASUREHUB - Main Application
    ============================================ */
 
+// --- Utility: Debounce function ---
+function debounce(fn, delay = 150) {
+  let timer;
+  return function(...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn.apply(this, args), delay);
+  };
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
@@ -150,8 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Reajustar na mudança de tamanho
-  window.addEventListener('resize', () => {
+  // Reajustar na mudança de tamanho (debounced)
+  window.addEventListener('resize', debounce(() => {
     const nav = document.querySelector('.main-nav');
     if (nav && window.innerWidth > 768) {
       nav.classList.remove('nav-open');
@@ -162,12 +171,12 @@ document.addEventListener('DOMContentLoaded', () => {
         headerActions.parentNode.insertBefore(menuToggle, headerActions);
       }
     }
-  });
+  }, 200), { passive: true });
 
-  // --- Scroll Spy para nav items ---
+  // --- Scroll Spy para nav items (debounced) ---
   const sections = document.querySelectorAll('section[id]');
   if (sections.length > 0 && navItems.length > 0) {
-    window.addEventListener('scroll', () => {
+    window.addEventListener('scroll', debounce(() => {
       let current = '';
       sections.forEach(section => {
         const sectionTop = section.offsetTop - 100;
@@ -181,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
           item.classList.add('active');
         }
       });
-    });
+    }, 100), { passive: true });
   }
 
   console.log('[PleasureHub] Site loaded successfully! 🚀');
