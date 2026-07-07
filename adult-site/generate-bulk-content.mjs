@@ -754,13 +754,13 @@ const VIDEO_TEMPLATE = (video) => `<!DOCTYPE html>
   <meta name="description" content="Watch ${video.title} for free on PleasureHub. Quality: ${video.quality} • Duration: ${video.duration}. The best free adult videos.">
   <meta name="keywords" content="${video.tags.join(', ')}, adult videos, free porn, hd videos">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://pleasurehub.com/video/${video.id}">
+  <link rel="canonical" href="https://pleasurehub-mu.vercel.app/video/${video.id}">
   
   <!-- Open Graph -->
   <meta property="og:title" content="${video.title} - PleasureHub">
   <meta property="og:description" content="Watch ${video.title} in ${video.quality} for free on PleasureHub.">
   <meta property="og:type" content="video.other">
-  <meta property="og:url" content="https://pleasurehub.com/video/${video.id}">
+  <meta property="og:url" content="https://pleasurehub-mu.vercel.app/video/${video.id}">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -775,8 +775,8 @@ const VIDEO_TEMPLATE = (video) => `<!DOCTYPE html>
   <!-- Geo targeting for US -->
   <meta name="geo.region" content="US" />
   <meta name="geo.placename" content="United States" />
-  <link rel="alternate" hreflang="en" href="https://pleasurehub.com/video/${video.id}" />
-  <link rel="alternate" hreflang="x-default" href="https://pleasurehub.com/video/${video.id}" />
+  <link rel="alternate" hreflang="en" href="https://pleasurehub-mu.vercel.app/video/${video.id}" />
+  <link rel="alternate" hreflang="x-default" href="https://pleasurehub-mu.vercel.app/video/${video.id}" />
 
   <!-- AdCash Ads -->
   <script type="text/javascript" src="https://acscdn.com/script/aclib.js"></script>
@@ -792,7 +792,7 @@ const VIDEO_TEMPLATE = (video) => `<!DOCTYPE html>
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "PleasureHub",
-    "url": "https://pleasurehub.com",
+    "url": "https://pleasurehub-mu.vercel.app",
     "description": "Free adult entertainment portal. Thousands of HD and 4K videos.",
     "foundingDate": "2024",
     "sameAs": []
@@ -805,8 +805,8 @@ const VIDEO_TEMPLATE = (video) => `<!DOCTYPE html>
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pleasurehub.com/" },
-      { "@type": "ListItem", "position": 2, "name": "${video.title.replace(/"/g, '\\"')}", "item": "https://pleasurehub.com/video/${video.id}" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pleasurehub-mu.vercel.app/" },
+      { "@type": "ListItem", "position": 2, "name": "${video.title.replace(/"/g, '\\"')}", "item": "https://pleasurehub-mu.vercel.app/video/${video.id}" }
     ]
   }
   </script>
@@ -819,7 +819,7 @@ const VIDEO_TEMPLATE = (video) => `<!DOCTYPE html>
     "name": "${video.title.replace(/"/g, '\\"')}",
     "description": "Watch ${video.title.replace(/"/g, '\\"')} for free on PleasureHub. Quality: ${video.quality} • Duration: ${video.duration}.",
     "thumbnailUrl": [
-      "https://pleasurehub.com/${video.thumbnail}"
+      "https://pleasurehub-mu.vercel.app/${video.thumbnail}"
     ],
     "uploadDate": "${video.date}T08:00:00Z",
     "duration": "PT${video.duration.split(':')[0]}M${video.duration.split(':')[1]}S",
@@ -1095,7 +1095,7 @@ function generateSitemapXML(videos) {
 
   <!-- HOME PAGE -->
   <url>
-    <loc>https://pleasurehub.com/</loc>
+    <loc>https://pleasurehub-mu.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <lastmod>${todayStr}</lastmod>
@@ -1106,7 +1106,7 @@ function generateSitemapXML(videos) {
 
   categoriesList.forEach(cat => {
     xml += `  <url>
-    <loc>https://pleasurehub.com/${cat}</loc>
+    <loc>https://pleasurehub-mu.vercel.app/${cat}</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <lastmod>${todayStr}</lastmod>
@@ -1116,7 +1116,7 @@ function generateSitemapXML(videos) {
   xml += `
   <!-- DYNAMIC CATEGORY PAGE -->
   <url>
-    <loc>https://pleasurehub.com/category</loc>
+    <loc>https://pleasurehub-mu.vercel.app/category</loc>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
     <lastmod>${todayStr}</lastmod>
@@ -1124,7 +1124,7 @@ function generateSitemapXML(videos) {
 
   <!-- FALLBACK VIDEO PAGE -->
   <url>
-    <loc>https://pleasurehub.com/video</loc>
+    <loc>https://pleasurehub-mu.vercel.app/video</loc>
     <changefreq>daily</changefreq>
     <priority>0.4</priority>
     <lastmod>${todayStr}</lastmod>
@@ -1132,25 +1132,25 @@ function generateSitemapXML(videos) {
 
   <!-- BLOG PAGES -->
   <url>
-    <loc>https://pleasurehub.com/blog</loc>
+    <loc>https://pleasurehub-mu.vercel.app/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>${todayStr}</lastmod>
   </url>
   <url>
-    <loc>https://pleasurehub.com/blog/top-milf-content-2025</loc>
+    <loc>https://pleasurehub-mu.vercel.app/blog/top-milf-content-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <lastmod>${todayStr}</lastmod>
   </url>
   <url>
-    <loc>https://pleasurehub.com/blog/brazilian-adult-content-guide</loc>
+    <loc>https://pleasurehub-mu.vercel.app/blog/brazilian-adult-content-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <lastmod>${todayStr}</lastmod>
   </url>
   <url>
-    <loc>https://pleasurehub.com/blog/amateur-homemade-guide</loc>
+    <loc>https://pleasurehub-mu.vercel.app/blog/amateur-homemade-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <lastmod>${todayStr}</lastmod>
@@ -1158,7 +1158,7 @@ function generateSitemapXML(videos) {
 
   <!-- ABOUT PAGE -->
   <url>
-    <loc>https://pleasurehub.com/about</loc>
+    <loc>https://pleasurehub-mu.vercel.app/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
     <lastmod>${todayStr}</lastmod>
@@ -1166,25 +1166,25 @@ function generateSitemapXML(videos) {
 
   <!-- LEGAL PAGES -->
   <url>
-    <loc>https://pleasurehub.com/privacy</loc>
+    <loc>https://pleasurehub-mu.vercel.app/privacy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
     <lastmod>${todayStr}</lastmod>
   </url>
   <url>
-    <loc>https://pleasurehub.com/terms</loc>
+    <loc>https://pleasurehub-mu.vercel.app/terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
     <lastmod>${todayStr}</lastmod>
   </url>
   <url>
-    <loc>https://pleasurehub.com/dmca</loc>
+    <loc>https://pleasurehub-mu.vercel.app/dmca</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
     <lastmod>${todayStr}</lastmod>
   </url>
   <url>
-    <loc>https://pleasurehub.com/contact</loc>
+    <loc>https://pleasurehub-mu.vercel.app/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
     <lastmod>${todayStr}</lastmod>
@@ -1200,12 +1200,12 @@ function generateSitemapXML(videos) {
     const durationSec = getDurationInSeconds(v.duration);
 
     xml += `  <url>
-    <loc>https://pleasurehub.com/video/${v.id}</loc>
+    <loc>https://pleasurehub-mu.vercel.app/video/${v.id}</loc>
     <lastmod>${v.date}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <video:video>
-      <video:thumbnail_loc>https://pleasurehub.com/${v.thumbnail}</video:thumbnail_loc>
+      <video:thumbnail_loc>https://pleasurehub-mu.vercel.app/${v.thumbnail}</video:thumbnail_loc>
       <video:title>${titleEsc}</video:title>
       <video:description>${descEsc}</video:description>
       <video:player_loc>${embedEsc}</video:player_loc>

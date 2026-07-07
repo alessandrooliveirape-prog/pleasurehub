@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pleasurehub.com/sitemap.xml
+Sitemap: https://pleasurehub-mu.vercel.app/sitemap.xml

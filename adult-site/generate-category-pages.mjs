@@ -39,13 +39,13 @@ const TEMPLATE = (cat) => `<!DOCTYPE html>
   <meta name="description" content="${cat.desc}">
   <meta name="keywords" content="${cat.keywords}">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://pleasurehub.com/${cat.id}">
+  <link rel="canonical" href="https://pleasurehub-mu.vercel.app/${cat.id}">
   
   <!-- Open Graph -->
   <meta property="og:title" content="${cat.emoji} ${cat.name} - PleasureHub">
   <meta property="og:description" content="${cat.desc.substring(0, 150)}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://pleasurehub.com/${cat.id}">
+  <meta property="og:url" content="https://pleasurehub-mu.vercel.app/${cat.id}">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -57,8 +57,8 @@ const TEMPLATE = (cat) => `<!DOCTYPE html>
   <!-- Geo targeting for US -->
   <meta name="geo.region" content="US" />
   <meta name="geo.placename" content="United States" />
-  <link rel="alternate" hreflang="en" href="https://pleasurehub.com/${cat.id}" />
-  <link rel="alternate" hreflang="x-default" href="https://pleasurehub.com/${cat.id}" />
+  <link rel="alternate" hreflang="en" href="https://pleasurehub-mu.vercel.app/${cat.id}" />
+  <link rel="alternate" hreflang="x-default" href="https://pleasurehub-mu.vercel.app/${cat.id}" />
 
   <!-- AdCash Ads -->
   <script type="text/javascript" src="https://acscdn.com/script/aclib.js"></script>
@@ -74,7 +74,7 @@ const TEMPLATE = (cat) => `<!DOCTYPE html>
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "PleasureHub",
-    "url": "https://pleasurehub.com",
+    "url": "https://pleasurehub-mu.vercel.app",
     "description": "Free adult entertainment portal.",
     "foundingDate": "2024"
   }
@@ -86,8 +86,8 @@ const TEMPLATE = (cat) => `<!DOCTYPE html>
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pleasurehub.com/" },
-      { "@type": "ListItem", "position": 2, "name": "${cat.name}", "item": "https://pleasurehub.com/${cat.id}" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pleasurehub-mu.vercel.app/" },
+      { "@type": "ListItem", "position": 2, "name": "${cat.name}", "item": "https://pleasurehub-mu.vercel.app/${cat.id}" }
     ]
   }
   </script>
@@ -99,7 +99,7 @@ const TEMPLATE = (cat) => `<!DOCTYPE html>
     "@type": "CollectionPage",
     "name": "${cat.emoji} ${cat.name}",
     "description": "${cat.desc}",
-    "url": "https://pleasurehub.com/${cat.id}",
+    "url": "https://pleasurehub-mu.vercel.app/${cat.id}",
     "about": {
       "@type": "Thing",
       "name": "${cat.name}"
