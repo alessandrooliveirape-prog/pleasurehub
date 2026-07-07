@@ -7,11 +7,15 @@
     },
     {
       "source": "/([^.]+)$",
-      "destination": "/adult-site/$1.html"
+      "destination": "/adult-site/.html"
+    },
+    {
+      "source": "/([^/.]+)/([^/.]+)$",
+      "destination": "/adult-site//.html"
     },
     {
       "source": "/(.*)",
-      "destination": "/adult-site/$1"
+      "destination": "/adult-site/"
     }
   ],
   "headers": [
