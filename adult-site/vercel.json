@@ -1,14 +1,9 @@
 {
   "version": 2,
   "rewrites": [
-    {
-      "source": "/:path(([a-zA-Z0-9_-]+))",
-      "destination": "/:path.html"
-    },
-    {
-      "source": "/:folder(([a-zA-Z0-9_-]+))/:file(([a-zA-Z0-9_-]+))",
-      "destination": "/:folder/:file.html"
-    }
+    { "source": "/milf", "destination": "/milf.html" },
+    { "source": "/:path(([a-zA-Z0-9_-]+))", "destination": "/:path.html" },
+    { "source": "/:folder(([a-zA-Z0-9_-]+))/:file(([a-zA-Z0-9_-]+))", "destination": "/:folder/:file.html" }
   ],
   "headers": [
     {
