@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/milf", "destination": "/milf.html" },
+    { "source": "/:path(([a-zA-Z0-9_-]+))", "destination": "/:path.html" },
+    { "source": "/:folder(([a-zA-Z0-9_-]+))/:file(([a-zA-Z0-9_-]+))", "destination": "/:folder/:file.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.(css|js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(png|jpg|jpeg|gif|webp|svg|ico)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}
